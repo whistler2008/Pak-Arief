@@ -146,6 +146,20 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/bnf/cinelog35_hd.txt",
+      "hash": "a703a2d692774a6770d9626993173f2685b397392381a5886b4304e04d909e8c",
+      "title": "Cinelog35 HD",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "factory"
+      ],
+      "priority": 0
+    },
+    {
       "fullPath": "presets/rx/elrs_500_43.txt",
       "hash": "674889d8c86b0b10df2fc8f85f62fc1cffb032822bd28fae19eef885caea5716",
       "title": "RX Serial ELRS 500Hz for Race (Betaflight 4.3-4.4)",
