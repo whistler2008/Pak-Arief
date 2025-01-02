@@ -1,9 +1,9 @@
-#$ TITLE: Cinelog25 HD - ELRS 2.4GHz
+#$ TITLE: Cinelog25 HD
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: BNF
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: factory
-#$ DESCRIPTION: Cinelog25 HD - ELRS 2.4GHz
+#$ DESCRIPTION: Cinelog25 HD
 
 
 # name: Cinelog25 HD
@@ -318,12 +318,12 @@ rateprofile 0
 
 #$ OPTION_GROUP BEGIN: RX Hardware
 
-#$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
-#$ INCLUDE: presets/rx/sbus_dji_fast_43.txt
+#$ OPTION BEGIN (CHECKED): CRSF TBS / ELRS 2.4Ghz
+#$ INCLUDE: presets/rx/elrs_500_43.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
-#$ INCLUDE: presets/rx/elrs_500_43.txt
+#$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
+#$ INCLUDE: presets/rx/sbus_dji_fast_43.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

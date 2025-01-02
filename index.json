@@ -132,9 +132,9 @@
   },
   "presets": [
     {
-      "fullPath": "presets/bnf/cinelog25_hd_elrs.txt",
-      "hash": "9ea7a8871b5c206941edf4b9fe61728a06b5e4c106ba241f1692d5a4c58586ad",
-      "title": "Cinelog25 HD - ELRS 2.4GHz",
+      "fullPath": "presets/bnf/cinelog25_hd.txt",
+      "hash": "0e3d60cc38f4de7ff4c921faf1321ab156d3fbdb68c1c63f61d315d6866a14f8",
+      "title": "Cinelog25 HD",
       "firmware_version": [
         "4.5"
       ],
