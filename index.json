@@ -133,8 +133,8 @@
   "presets": [
     {
       "fullPath": "presets/bnf/cinelog25_hd.txt",
-      "hash": "06c738a8ae4a28605336581aeefff0753fae47b3496d734ef91668ac663b9343",
-      "title": "Cinelog35 HD",
+      "hash": "d476aa58173d9f0de3fa3db2fb43adc841858ea864ca239da9abb1c7432b1e4a",
+      "title": "Cinelog25 HD",
       "firmware_version": [
         "4.5"
       ],
