@@ -1,19 +1,14 @@
-#$ TITLE: CineON20 HD
+#$ TITLE: CineON 20 HD
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: BNF
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: factory
-#$ DESCRIPTION: CineON20 HD
+#$ DESCRIPTION: BackUp CineON 20 HD
 
 
-# name: CineON 20 HD
+# name: CINELON20 HD
 
 # resources
-resource MOTOR 1 none
-resource MOTOR 2 none
-resource MOTOR 3 none
-resource MOTOR 4 none
-
 resource MOTOR 1 B06
 resource MOTOR 2 B07
 resource MOTOR 3 B04
@@ -82,14 +77,13 @@ set rc_smoothing_throttle_cutoff = 20
 set fpv_mix_degrees = 15
 set rx_min_usec = 900
 set rx_max_usec = 2100
-set dshot_idle_value = 400
+set dshot_idle_value = 350
 set dshot_bidir = ON
 set motor_poles = 12
 set failsafe_off_delay = 75
 set failsafe_throttle = 1150
 set failsafe_procedure = AUTO-LAND
 set align_board_pitch = 180
-set align_board_yaw = -45
 set vbat_max_cell_voltage = 440
 set yaw_motors_reversed = ON
 set small_angle = 180
@@ -179,7 +173,7 @@ set gyro_1_align_yaw = 1800
 set gyro_2_bustype = SPI
 set gyro_2_sensor_align = CW0
 set rpm_filter_weights = 100,80,60
-set craft_name = CineON 20 HD
+set craft_name = CINELON20 HD
 set pilot_name = CINEWHOOP
 
 profile 0
@@ -315,6 +309,7 @@ rateprofile 3
 
 # restore original rateprofile selection
 rateprofile 0
+
 
 #$ OPTION_GROUP BEGIN: RX Hardware
 
