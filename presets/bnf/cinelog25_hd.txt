@@ -1,9 +1,9 @@
-#$ TITLE: Cinelog35 HD
+#$ TITLE: Cinelog25 HD
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: BNF
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: factory
-#$ DESCRIPTION: BackUp Cinelog35 HD
+#$ DESCRIPTION: BackUp Cinelog25 HD
 
 
 # name: Cinelog25 HD
