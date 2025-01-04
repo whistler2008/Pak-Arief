@@ -1,12 +1,12 @@
-#$ TITLE: Cinelog25 HD
+#$ TITLE: CineON20 HD
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: BNF
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: factory
-#$ DESCRIPTION: Cinelog25 HD
+#$ DESCRIPTION: CineON20 HD
 
 
-# name: Cinelog25 HD
+# name: CineON 20 HD
 
 # resources
 resource MOTOR 1 none
@@ -179,7 +179,7 @@ set gyro_1_align_yaw = 1800
 set gyro_2_bustype = SPI
 set gyro_2_sensor_align = CW0
 set rpm_filter_weights = 100,80,60
-set craft_name = Cinelog25 HD
+set craft_name = CineON 20 HD
 set pilot_name = CINEWHOOP
 
 profile 0
