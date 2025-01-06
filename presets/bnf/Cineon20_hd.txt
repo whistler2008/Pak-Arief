@@ -54,13 +54,6 @@ led 5 5,0::COVIW:5
 led 6 6,0::COVIW:5
 led 7 7,0::COVIW:5
 
-# aux
-aux 0 0 0 1550 2100 0 0
-aux 1 1 1 900 1300 0 0
-aux 2 13 2 1700 2100 0 0
-aux 3 28 1 1700 2100 0 0
-aux 4 35 3 1700 2100 0 0
-
 # rxfail
 rxfail 3 s 1100
 rxfail 5 s 1100
@@ -74,11 +67,6 @@ set dyn_notch_max_hz = 650
 set gyro_lpf1_dyn_min_hz = 0
 set acc_lpf_hz = 10
 set acc_calibration = -45,29,-3700,1
-set rc_smoothing_auto_factor = 250
-set rc_smoothing_auto_factor_throttle = 250
-set rc_smoothing_setpoint_cutoff = 12
-set rc_smoothing_feedforward_cutoff = 12
-set rc_smoothing_throttle_cutoff = 20
 set fpv_mix_degrees = 15
 set rx_min_usec = 900
 set rx_max_usec = 2100
@@ -95,24 +83,6 @@ set small_angle = 180
 set pid_process_denom = 2
 set simplified_gyro_filter_multiplier = 150
 set osd_warn_bitmask = 8191
-set osd_vbat_pos = 2711
-set osd_link_quality_pos = 2687
-set osd_link_tx_power_pos = 2719
-set osd_tim_2_pos = 2689
-set osd_flymode_pos = 2649
-set osd_throttle_pos = 2655
-set osd_crosshairs_pos = 205
-set osd_ah_sbar_pos = 206
-set osd_ah_pos = 78
-set osd_craft_name_pos = 2104
-set osd_warnings_pos = 14680
-set osd_avg_cell_voltage_pos = 2679
-set osd_disarmed_pos = 2593
-set osd_up_down_reference_pos = 205
-set osd_core_temp_pos = 2657
-set osd_camera_frame_pos = 35
-set osd_canvas_width = 60
-set osd_canvas_height = 22
 set gyro_1_sensor_align = CW180
 set gyro_1_align_yaw = 1800
 set gyro_2_bustype = SPI
@@ -256,17 +226,39 @@ rateprofile 3
 rateprofile 0
 
 
-#$ OPTION_GROUP BEGIN: RX Hardware
+#$ OPTION_GROUP BEGIN: VTX & RX Type
 
-#$ OPTION BEGIN (CHECKED): CRSF TBS / ELRS 2.4Ghz
-#$ INCLUDE: presets/rx/elrs_500_43.txt
-set report_cell_voltage = ON
+#$ OPTION BEGIN (UNCHECKED): Digital & ELRS
+#$ INCLUDE: presets/other/rx_elrs_500_43.txt
+#$ INCLUDE: presets/other/osd_44_digital_other_lq.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
-#$ INCLUDE: presets/rx/sbus_dji_fast_43.txt
+#$ OPTION BEGIN (UNCHECKED): Digital & DJI SBUS
+#$ INCLUDE: presets/other/rx_sbus_dji_fast_43.txt
+#$ INCLUDE: presets/other/osd_44_digital_other_rssi.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital O3 & ELRS
+#$ INCLUDE: presets/other/rx_elrs_500_43.txt
+#$ INCLUDE: presets/other/osd_44_digital_o3_lq.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital O3 & DJI SBUS
+#$ INCLUDE: presets/other/rx_sbus_dji_fast_43.txt
+#$ INCLUDE: presets/other/osd_44_digital_o3_rssi.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
 
+#$ OPTION_GROUP BEGIN: GPS Hardware
+
+#$ OPTION BEGIN (UNCHECKED): With GPS - Digital
+#$ INCLUDE: presets/other/aux_gps_44_digital_other.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): With GPS - Digital O3
+#$ INCLUDE: presets/other/aux_gps_44_digital_o3.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END

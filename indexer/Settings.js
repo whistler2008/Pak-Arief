@@ -18,12 +18,12 @@ const ParserEnum =       ["TEXT", "MARKED"];
 
 const PresetCategories = {
     BNF:			"BNF",
-    RX:			"RX",
+    OTHER:			"OTHER",
 }
 
 const PresetCategoriesPriorities = {
     BNF:			0,
-    RX:			0,
+    OTHER:			0,
 }
 
 const OptionsDirectives = {

@@ -5,11 +5,11 @@
     "MetapropertyDirective": "#$",
     "PresetCategories": {
       "BNF": "BNF",
-      "RX": "RX"
+      "OTHER": "OTHER"
     },
     "PresetCategoriesPriorities": {
       "BNF": 0,
-      "RX": 0
+      "OTHER": 0
     },
     "MetadataTypes": {
       "STRING": "STRING",
@@ -116,24 +116,29 @@
   },
   "uniqueValues": {
     "firmware_version": [
+      "4.0",
+      "4.2",
       "4.3",
       "4.4",
       "4.5"
     ],
     "category": [
       "BNF",
-      "RX"
+      "OTHER"
     ],
     "author": [],
     "keywords": [
+      "default",
       "factory",
+      "modes",
+      "osd",
       "rx"
     ]
   },
   "presets": [
     {
       "fullPath": "presets/bnf/cinelog25_hd.txt",
-      "hash": "d476aa58173d9f0de3fa3db2fb43adc841858ea864ca239da9abb1c7432b1e4a",
+      "hash": "0e020fe0cd7a55e874b0917c773495047d0badb0ea07f29d43c0897718be2d48",
       "title": "Cinelog25 HD",
       "firmware_version": [
         "4.5"
@@ -147,7 +152,7 @@
     },
     {
       "fullPath": "presets/bnf/cinelog35_hd.txt",
-      "hash": "b91de458136bfba0e65a877e6d63bd77efb76da4dafb33704cd0c86f907ec6d9",
+      "hash": "a1aad23a5c4d8e00b66cf810774a419ce887f213fc7ad2cd8dad3b2f150b141e",
       "title": "Cinelog35 HD",
       "firmware_version": [
         "4.5"
@@ -161,7 +166,7 @@
     },
     {
       "fullPath": "presets/bnf/Cineon20_hd.txt",
-      "hash": "fd5fd95f444e651047c09070e6dc86f444efa0f563930c27e5b400c373c4b777",
+      "hash": "96bf157bbe795bca0bcb69f5f87fd7b846c520498e96b590b72ad3de3793b88c",
       "title": "CineON 20 HD",
       "firmware_version": [
         "4.5"
@@ -174,15 +179,162 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/rx/elrs_500_43.txt",
-      "hash": "674889d8c86b0b10df2fc8f85f62fc1cffb032822bd28fae19eef885caea5716",
+      "fullPath": "presets/other/aux_default.txt",
+      "hash": "75a232482f524921345c8388d74d41386809a9aece28562081a8e0e1d80e5ebe",
+      "title": "Default AUX settings",
+      "firmware_version": [
+        "4.0",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/other/aux_gps_44_digital_o3.txt",
+      "hash": "c961470a5f48a32e1b1c051a75475967cb264b058d6476637f6f645d1a191dec",
+      "title": "AUX with GPS Rescue - Digital O3 (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "modes"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/other/aux_gps_44_digital_other.txt",
+      "hash": "86ba2f7628f83c177ec69fa33243097d57201834a68df1ba57c98e2aea98faed",
+      "title": "AUX with GPS Rescue - Digital (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "modes"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/other/aux_std_44.txt",
+      "hash": "78c0d544488a8de4f103fe3f7e2b483a5295cccd2ac67e0c99a03a238087c34f",
+      "title": "AUX Standard (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "modes"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/other/osd_44_default.txt",
+      "hash": "253a8922a0e359dc5d3dfe2a5132643bb7bd03b95b11fd5f343495794206f722",
+      "title": "Default OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/other/osd_44_digital_o3_lq.txt",
+      "hash": "f868008c6d61ad117412b817177cb9f0d43ca1239ca22c490e7a5ba45d3a847e",
+      "title": "Digital O3 OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/other/osd_44_digital_o3_rssi.txt",
+      "hash": "8ab6a8cee4422c8cc2939d11c82269b36fbf6a55f30e33d896decab6be679745",
+      "title": "Digital O3 OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/other/osd_44_digital_other_lq.txt",
+      "hash": "46feca39bad02de016af1d9f1b099d6d150aa30394185cf0e231b870de4ace4c",
+      "title": "Digital OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/other/osd_44_digital_other_rssi.txt",
+      "hash": "d7966c65c39c465a80fdf343cdcad2b9b3669fede64b5e0b62f06d5df22fc4bb",
+      "title": "Digital OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/other/rx_elrs_500_43.txt",
+      "hash": "3fb97bf373a6cc81a10101d18241965f9d3eb723d729e59c3ccda702c1378952",
       "title": "RX Serial ELRS 500Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
         "4.4",
         "4.5"
       ],
-      "category": "RX",
+      "category": "OTHER",
       "status": "COMMUNITY",
       "keywords": [
         "rx"
@@ -191,15 +343,15 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/rx/sbus_dji_fast_43.txt",
-      "hash": "9111a0e540fb2958b73c6a2b8f7f865df8858af5e19b4344509999db526e96cf",
+      "fullPath": "presets/other/rx_sbus_dji_fast_43.txt",
+      "hash": "03b7fd1157a59a7f73ada7b88648368adfe4e79c48111c70328d0f9c50e36173",
       "title": "RX Serial DJI SBUS Fast",
       "firmware_version": [
         "4.3",
         "4.4",
         "4.5"
       ],
-      "category": "RX",
+      "category": "OTHER",
       "status": "COMMUNITY",
       "keywords": [
         "rx"
