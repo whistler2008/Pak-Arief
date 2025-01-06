@@ -253,6 +253,10 @@ rateprofile 0
 
 #$ OPTION_GROUP BEGIN: GPS Hardware
 
+#$ OPTION BEGIN (CHECKED): Without GPS
+#$ INCLUDE: presets/other/aux_std_44.txt
+#$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): With GPS - Digital
 #$ INCLUDE: presets/other/aux_gps_44_digital_other.txt
 #$ OPTION END

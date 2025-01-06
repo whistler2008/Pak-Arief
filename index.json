@@ -138,7 +138,7 @@
   "presets": [
     {
       "fullPath": "presets/bnf/cinelog25_hd.txt",
-      "hash": "0e020fe0cd7a55e874b0917c773495047d0badb0ea07f29d43c0897718be2d48",
+      "hash": "1199e1e39e9d2220c8e5b800a3960263b44a1824831af6cf7457a2f4f4f56cbc",
       "title": "Cinelog25 HD",
       "firmware_version": [
         "4.5"
@@ -152,7 +152,7 @@
     },
     {
       "fullPath": "presets/bnf/cinelog35_hd.txt",
-      "hash": "a1aad23a5c4d8e00b66cf810774a419ce887f213fc7ad2cd8dad3b2f150b141e",
+      "hash": "a4797c1cc8c43598f006899b5a00c29437e5551e2ad51e2e9021cccd339d6ca1",
       "title": "Cinelog35 HD",
       "firmware_version": [
         "4.5"
@@ -166,7 +166,7 @@
     },
     {
       "fullPath": "presets/bnf/Cineon20_hd.txt",
-      "hash": "96bf157bbe795bca0bcb69f5f87fd7b846c520498e96b590b72ad3de3793b88c",
+      "hash": "36caabbde490156ff77c89c5c065cffb626ddd05d63edf894392d3a506cc12c9",
       "title": "CineON 20 HD",
       "firmware_version": [
         "4.5"
