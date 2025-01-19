@@ -17,13 +17,17 @@ const PresetStatusEnum = ["OFFICIAL", "COMMUNITY", "EXPERIMENTAL"];
 const ParserEnum =       ["TEXT", "MARKED"];
 
 const PresetCategories = {
-    BNF:			"BNF",
-    OTHER:			"OTHER",
+    BNF: "BNF",
+    MODES: "MODES",
+    OSD: "OSD",
+    RECIEVER: "RX",
 }
 
 const PresetCategoriesPriorities = {
-    BNF:			0,
-    OTHER:			0,
+    BNF: 0,
+    MODES: 0,
+    OSD: 0,
+    RECIEVER: 0,
 }
 
 const OptionsDirectives = {

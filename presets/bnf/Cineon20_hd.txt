@@ -226,26 +226,30 @@ rateprofile 3
 rateprofile 0
 
 
-#$ OPTION_GROUP BEGIN: VTX & RX Type
+#$ OPTION_GROUP BEGIN: RX Hardware
 
-#$ OPTION BEGIN (UNCHECKED): Digital & ELRS
-#$ INCLUDE: presets/other/rx_elrs_500_43.txt
-#$ INCLUDE: presets/other/osd_44_digital_other_lq.txt
+#$ OPTION BEGIN (UNCHECKED): Serial SBUS
+#$ INCLUDE: presets/reciever/rx_serial_sbus.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital & DJI SBUS
-#$ INCLUDE: presets/other/rx_sbus_dji_fast_43.txt
-#$ INCLUDE: presets/other/osd_44_digital_other_rssi.txt
+#$ OPTION BEGIN (UNCHECKED): Serial IBUS
+#$ INCLUDE: presets/reciever/rx_serial_ibus.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital O3 & ELRS
-#$ INCLUDE: presets/other/rx_elrs_500_43.txt
-#$ INCLUDE: presets/other/osd_44_digital_o3_lq.txt
+#$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
+#$ INCLUDE: presets/reciever/rx_spi_sbus_ibus.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital O3 & DJI SBUS
-#$ INCLUDE: presets/other/rx_sbus_dji_fast_43.txt
-#$ INCLUDE: presets/other/osd_44_digital_o3_rssi.txt
+#$ OPTION BEGIN (UNCHECKED): SPI ELRS
+#$ INCLUDE: presets/reciever/rx_cinewhoop_elrs_200.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
+#$ INCLUDE: presets/reciever/rx_cinewhoop_elrs_200.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
+#$ INCLUDE: presets/reciever/rx_cinewhoop_elrs_500.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -253,16 +257,12 @@ rateprofile 0
 
 #$ OPTION_GROUP BEGIN: GPS Hardware
 
-#$ OPTION BEGIN (UNCHECKED): Without GPS
-#$ INCLUDE: presets/other/aux_std_44.txt
+#$ OPTION BEGIN (CHECKED): Without GPS
+#$ INCLUDE: presets/modes/aux_std.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): With GPS - Digital
-#$ INCLUDE: presets/other/aux_gps_44_digital_other.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): With GPS - Digital O3
-#$ INCLUDE: presets/other/aux_gps_44_digital_o3.txt
+#$ OPTION BEGIN (UNCHECKED): With GPS
+#$ INCLUDE: presets/modes/aux_gps.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
