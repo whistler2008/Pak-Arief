@@ -638,7 +638,7 @@
     },
     {
       "fullPath": "presets/osd/setting_osd.txt",
-      "hash": "cf160441ad061883f2e99de1ca4d4bf1d1b297ee60a21bbb2aba5cc684372691",
+      "hash": "d415235adb384163a6c890a0e603b2378ca4cd91cdd49570c9e4070287c62dc8",
       "title": "OSD Placement",
       "firmware_version": [
         "4.4",
