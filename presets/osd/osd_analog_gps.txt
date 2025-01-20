@@ -3,7 +3,7 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: osd
+#$ KEYWORDS: OSD
 #$ DESCRIPTION: Analog GPS OSD settings (Betaflight 4.4-4.5)
 #$ HIDDEN: true
 

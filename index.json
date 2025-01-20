@@ -136,17 +136,17 @@
       "Whistler2008"
     ],
     "keywords": [
-      "default",
+      "BNF",
       "factory",
-      "modes",
-      "osd",
-      "rx"
+      "MODES",
+      "OSD",
+      "RECIEVER"
     ]
   },
   "presets": [
     {
       "fullPath": "presets/bnf/cinelog25_hd.txt",
-      "hash": "47f9efd719c00871c1bd9a8601c67a4e528ee47ca80e247cac0872db17ea2d8e",
+      "hash": "9806faa946dd978b90e8d64180767c8631884e59474f056445f73458d18447e4",
       "title": "Cinelog25 HD",
       "firmware_version": [
         "4.5"
@@ -160,7 +160,7 @@
     },
     {
       "fullPath": "presets/bnf/cinelog35_hd.txt",
-      "hash": "ab57eeb11b366ddc163a9cc0ba511e094087c74c08bc40188251750605bad2c6",
+      "hash": "37a7a2efb37d0bf2edd2c7133c6880a8be94739dd5af5f0c85de043ad055afc9",
       "title": "Cinelog35 HD",
       "firmware_version": [
         "4.5"
@@ -174,7 +174,7 @@
     },
     {
       "fullPath": "presets/bnf/Cineon20_hd.txt",
-      "hash": "c1fff2d6a451b19d964175535c1d70c7d4532f0c86c04a613542eabe4ec73a74",
+      "hash": "81c01c83c4836a23c2f01366e12667be28ba1000a9af1bba77b9d6531efc3733",
       "title": "CineON 20 HD",
       "firmware_version": [
         "4.5"
@@ -187,25 +187,24 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/modes/40_aux_std.txt",
-      "hash": "8c1fd0620e04381e9be5508465b5901f4ab3e2550f9cd7b949fa2de24a00d064",
-      "title": "AUX Standard (Betaflight 4.3)",
+      "fullPath": "presets/bnf/setting_osd.txt",
+      "hash": "1e7be0b61c14c677a5584c9a37044d0d4a58e794a4a741340a0f2efb794406f4",
+      "title": "OSD Placement",
       "firmware_version": [
-        "4.0",
-        "4.2",
-        "4.3"
+        "4.4",
+        "4.5"
       ],
-      "category": "MODES",
+      "category": "BNF",
       "status": "COMMUNITY",
       "keywords": [
-        "modes"
+        "BNF"
       ],
-      "hidden": true,
+      "author": "Whistler2008",
       "priority": 0
     },
     {
       "fullPath": "presets/modes/aux_default.txt",
-      "hash": "16762f2da65cc7e741142a98d610218bfd546d120958c227ce18162f44d8f4cc",
+      "hash": "6ed27731ac03e12a63ff09d5a6f5cad5d369b58b0524795b328d134d0f2d22e7",
       "title": "Default AUX settings",
       "firmware_version": [
         "4.0",
@@ -217,14 +216,14 @@
       "category": "MODES",
       "status": "COMMUNITY",
       "keywords": [
-        "default"
+        "MODES"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/modes/aux_gps.txt",
-      "hash": "034f1acb363efb244994a53f0ca930072de400edc400ee93feb799adf5c73564",
+      "hash": "f7b1ebd1366e8ecf979bcdea3e4ae63d105bc3165226fd47969c5509840643f3",
       "title": "AUX with GPS Rescue",
       "firmware_version": [
         "4.4",
@@ -233,14 +232,14 @@
       "category": "MODES",
       "status": "COMMUNITY",
       "keywords": [
-        "modes"
+        "MODES"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/modes/aux_std.txt",
-      "hash": "c5ef925618b3a895d591316726bcbf7619354f83a34fe52cf06e6497ee0ba07a",
+      "hash": "3a4d3dfcfcdc8e637f693ccb5d681211f8a88a7b7846bf39d52117646b51f647",
       "title": "AUX Standard",
       "firmware_version": [
         "4.4",
@@ -249,44 +248,14 @@
       "category": "MODES",
       "status": "COMMUNITY",
       "keywords": [
-        "modes"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/40_osd_default.txt",
-      "hash": "598ee32822988845ce147a326f1669c0092d2c1e295fa038025f246000f97d21",
-      "title": "Default OSD settings (Betaflight 4.0)",
-      "firmware_version": [
-        "4.0"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "default"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/40_osd_global.txt",
-      "hash": "67497a2774bf550ec45c0e2475bf56f5428239ab3c4f6dfae6aac44a0f824f7c",
-      "title": "Global OSD settings (Betaflight 4.0)",
-      "firmware_version": [
-        "4.0"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
+        "MODES"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_analog_gps.txt",
-      "hash": "9a3966cfeba3d383cb6bf9c2a05279948eb3c26b0d1303a000fd8337dc23ac25",
+      "hash": "f171bfd988a5da212672665e33abed019a57a48a199c68827cff1598c4bdda69",
       "title": "Analog GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -295,14 +264,14 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "osd"
+        "OSD"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_analog_ntsc.txt",
-      "hash": "2c57571f264c472ab3ec60d0266f95c93602503f2e606cc79b7da801807702e6",
+      "hash": "42d3aab6283e761e8360d30a361b41e58a7ec11c0c5364a5bda51a1896185be7",
       "title": "Analog NTSC OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -311,14 +280,14 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "osd"
+        "OSD"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_analog_ntsc_lq.txt",
-      "hash": "513e6d6c4004ab21f4ca9f2fc6aae8cf3c876d1c051b57f05cf8d4c9de63310a",
+      "hash": "753ddb498cdd278313334eabab977636ba130ae53c53a7d24bf33272bbc67de4",
       "title": "Analog NTSC LQ OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -327,14 +296,14 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "osd"
+        "OSD"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_analog_ntsc_rssi.txt",
-      "hash": "f582fb01e3e3ab2a4a4f5b9e6717be0af2895fab0531e22d620941ec4d4a15c9",
+      "hash": "4cfb05a7e5a9301a8e10d3cc58a60706481446c01cd54a94103bede1ae978517",
       "title": "Analog NTSC RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -343,14 +312,14 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "osd"
+        "OSD"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_analog_pal.txt",
-      "hash": "e1d8a1285ff44f9c1c32c24b17880e4932db40c068641d2a39a07298c4b9d1b0",
+      "hash": "9acbe194071343936e34379016ec303018d4042c93eb244ee8019f1b2e8eff4c",
       "title": "Analog PAL OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -359,14 +328,14 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "osd"
+        "OSD"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_analog_pal_lq.txt",
-      "hash": "1beebad5e3f33a263ad7288c5a6b248e24318b932e56e0da9b062e90956f24f6",
+      "hash": "4ae585bad373d220035f372ac2e77be427b01b1e14c1b5851d0ed787f7e38dbf",
       "title": "Analog PAL LQ OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -375,14 +344,14 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "osd"
+        "OSD"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_analog_pal_rssi.txt",
-      "hash": "b485a3de57332566713a8b3a2c822b327e670f6e5feee9fa66adedd5bf7e0e40",
+      "hash": "711ffb2016d676953cb34d66b054c20f18973b225b26f0062220bcb06ceac807",
       "title": "Analog PAL RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -391,14 +360,14 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "osd"
+        "OSD"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_default.txt",
-      "hash": "ccb87daf46d4024b9f46114fd25e30f5b94f5341066374bb189f51c9e96f2004",
+      "hash": "d4a5a1caf10994788569b19229a20a285fdd7b7654dc819ce6b2a26404fb1592",
       "title": "Default OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -407,110 +376,14 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_hd_avatar.txt",
-      "hash": "25d4616e0016092b64cbfb22b16b70132adfd9c32a4038ef1c8e1cf9261703b3",
-      "title": "HD Avatar OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_hd_avatar_gps.txt",
-      "hash": "bd7f1b274d98aea0273bd63709d9344f9548d89475af72b64041b31568901c7c",
-      "title": "HD Avatar GPS OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_hd_dji_fpv.txt",
-      "hash": "7a7be05acf4ff65ad34f47614ecefbcf77d8714ccb79b1eabd16b76b5d471a44",
-      "title": "HD DJI FPV OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_hd_dji_fpv_gps.txt",
-      "hash": "e2b82abf61d7bb78c85959ef11f8af7069b2084f0ec694afeb160706829437bc",
-      "title": "HD DJI FPV GPS OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_hd_dji_fpv_lq.txt",
-      "hash": "c472ba5926339d601d387a53e45d47438841f0d2544f07e63d89ba34b3e27b89",
-      "title": "HD DJI FPV LQ OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_hd_dji_fpv_rssi.txt",
-      "hash": "d5cd69381dc9f2387627b300f4395dccfd5d142a1506f9af035f095604503b15",
-      "title": "HD DJI FPV RSSI OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
+        "OSD"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_o3.txt",
-      "hash": "89b9030fe8239595c6c88636e17bb4958de7e5d65f8210d28a25f255f7948a7f",
+      "hash": "0caee0554a386d5da4735a764dc3c55e378d4ecec9137470f72af0bf6e8735d7",
       "title": "HD DJI O3 OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -519,14 +392,14 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "osd"
+        "OSD"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_o3_gps.txt",
-      "hash": "8faecd453589c9bdf07939a66016640edd766cc9a5f7b33e22c0c8e036a25a97",
+      "hash": "d4e0a064a345298f43bd3a56322ae21d8c7d773548df3be770521ee72ea133c0",
       "title": "HD DJI O3 GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -535,14 +408,14 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "osd"
+        "OSD"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_o3_lq.txt",
-      "hash": "46c748679782a4aa43d4be7765e9103dc60e4c6fb48636d6fc2f07d91c932cab",
+      "hash": "cc6755661eb0ac66a40c3434cdf6705f0cfbeb71acc100d4569e3141fed6857a",
       "title": "HD DJI O3 LQ OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -551,14 +424,14 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "osd"
+        "OSD"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_o3_rssi.txt",
-      "hash": "7aff925b75874c4c7bd531f20d4f6c8011488202a4b9d0878c54b43c58580e99",
+      "hash": "becbb947efcc240185d752b1ddde45a96e094dd5fd0bd8551511501f82f80b5c",
       "title": "HD DJI O3 RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -567,14 +440,14 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "osd"
+        "OSD"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_wtfos.txt",
-      "hash": "c13f3ce15ac244fb6ff008921ad92783ed7b2f468e9e6327c9835fea5b8e5203",
+      "hash": "ac9abdbb4dc75f245b50ca1307fff0b4b74b9bc3cb8cca6d3e112f253b773c88",
       "title": "DJI WTFOS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -583,14 +456,14 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "osd"
+        "OSD"
       ],
       "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_wtfos_gps.txt",
-      "hash": "9dc96f96c15dbaf5f6027edff5c54e5fb0edcdb2860b8038439ff73c9084ba18",
+      "hash": "9daa5b8cfbec4cf646b49f2cf91ae5812d81fa3ada0b98b19c29372fc20d6c8b",
       "title": "HD DJI WTFOS GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -599,79 +472,14 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "osd"
+        "OSD"
       ],
       "hidden": true,
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_hd_hdzero.txt",
-      "hash": "72febcfe88c27c649658e23492df74f331bac5cc6a7d08e4e9321fafb58299fc",
-      "title": "HD Zero OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_hd_hdzero_gps.txt",
-      "hash": "8a73b829659f69e30a068688521a4e17d2b550a672f5de1addc95057a51dc309",
-      "title": "HD Zero GPS OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/setting_osd.txt",
-      "hash": "d415235adb384163a6c890a0e603b2378ca4cd91cdd49570c9e4070287c62dc8",
-      "title": "OSD Placement",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "author": "Whistler2008",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/reciever/rx_cinewhoop_elrs_200.txt",
-      "hash": "040e9082dfb41af7f184f7b5534d16ff0f1be72528bab45f3cba09b62a859219",
-      "title": "RX Serial ELRS 200Hz for CineWhoop (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "RECIEVER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rx"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/reciever/rx_cinewhoop_elrs_500.txt",
-      "hash": "ffb2c4b387be3f44fd0494d39e6e1b295aee032d31e1fc0a265b7aabc99bd442",
+      "fullPath": "presets/reciever/reciever_cinewhoop_elrs_500.txt",
+      "hash": "dce10f9fbc055e07183a10f03659efcc1e471c3b6008fcf5ce54bbc40220b914",
       "title": "RX Serial ELRS 500Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -681,31 +489,14 @@
       "category": "RECIEVER",
       "status": "COMMUNITY",
       "keywords": [
-        "rx"
+        "RECIEVER"
       ],
       "hidden": true,
       "priority": 0
     },
     {
-      "fullPath": "presets/reciever/rx_freestyle_elrs_200.txt",
-      "hash": "0c4457f56793df00c4c545f26bc772c8e12e3f1dcaf674e1580dd065b556aa21",
-      "title": "RX Serial ELRS 200Hz for FreeStyle (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "RECIEVER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rx"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/reciever/rx_freestyle_elrs_500.txt",
-      "hash": "c689f7b09a2c4394520e63643622eb862d26cb47e5ab435ce84a56a87a2c039b",
+      "fullPath": "presets/reciever/reciever_freestyle_elrs_500.txt",
+      "hash": "ead5a5b08d1d2861af059d93e788fa849597ef159d563c6b00aa1710d157d43f",
       "title": "RX Serial ELRS 500Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -715,31 +506,14 @@
       "category": "RECIEVER",
       "status": "COMMUNITY",
       "keywords": [
-        "rx"
+        "RECIEVER"
       ],
       "hidden": true,
       "priority": 0
     },
     {
-      "fullPath": "presets/reciever/rx_race_elrs_200.txt",
-      "hash": "3c7ee08ca9ac873c5f5cb06ef2a4c8e08576c849e64139f961e3ec5e6ad41cd3",
-      "title": "RX Serial ELRS 200Hz for Race (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "RECIEVER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rx"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/reciever/rx_race_elrs_500.txt",
-      "hash": "68365d595649585e485a441b7cbbccc3abb65dbedaeb4ded80bf98b35521796d",
+      "fullPath": "presets/reciever/reciever_race_elrs_500.txt",
+      "hash": "83dadb7982adfaa778ee2e82506343ac226f4bb2b70e277c1ec87554547b6c2c",
       "title": "RX Serial ELRS 500Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -749,48 +523,14 @@
       "category": "RECIEVER",
       "status": "COMMUNITY",
       "keywords": [
-        "rx"
+        "RECIEVER"
       ],
       "hidden": true,
       "priority": 0
     },
     {
-      "fullPath": "presets/reciever/rx_serial_ibus.txt",
-      "hash": "fcc0e17e0ac7678cb749a972194dfaf6cb3954224e1a958184a291d0974bc641",
-      "title": "RX Serial IBUS",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "RECIEVER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rx"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/reciever/rx_serial_sbus.txt",
-      "hash": "99e54fab018a9564fb30c355c71cf97e93f9b9484c7896519af526437462e41a",
-      "title": "RX Serial SBUS",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "RECIEVER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rx"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/reciever/rx_spi_elrs_150.txt",
-      "hash": "0fa526df842dc2b61dd846bd646d57616cab82c8cc2c2904ad2dabcc54571fd7",
+      "fullPath": "presets/reciever/reciever_spi_elrs_150.txt",
+      "hash": "bf58db34270d27d1653f103e54b8760095cff9778932111854381e7d36f3529e",
       "title": "RX SPI ELRS 150 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -800,14 +540,14 @@
       "category": "RECIEVER",
       "status": "COMMUNITY",
       "keywords": [
-        "rx"
+        "RECIEVER"
       ],
       "hidden": true,
       "priority": 0
     },
     {
-      "fullPath": "presets/reciever/rx_spi_sbus_ibus.txt",
-      "hash": "6a7de702d23e08eb045da18f3967af9e8084acec99a9991737c01bbd0f3d825b",
+      "fullPath": "presets/reciever/reciever_spi_sbus_ibus.txt",
+      "hash": "f83efa7a129398f22ef35b03f3def73dbb572364fa8ae466933e26f62f6c4c0c",
       "title": "RX SPI SBUS / IBUS",
       "firmware_version": [
         "4.3",
@@ -817,7 +557,7 @@
       "category": "RECIEVER",
       "status": "COMMUNITY",
       "keywords": [
-        "rx"
+        "RECIEVER"
       ],
       "hidden": true,
       "priority": 0

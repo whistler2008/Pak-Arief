@@ -1,19 +1,20 @@
-#$ TITLE: RX Serial ELRS 200Hz for FreeStyle (Betaflight 4.3-4.4)
+#$ TITLE: RX SPI ELRS 150 (Betaflight 4.3-4.4)
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: RECIEVER
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: rx
-#$ DESCRIPTION: Setting for RX Serial ELRS 200Hz for FreeStyle (Betaflight 4.3-4.4)
+#$ KEYWORDS: RECIEVER
+#$ DESCRIPTION: Setting for RX SPI ELRS 150 (Betaflight 4.3-4.4)
 #$ HIDDEN: true
 
-feature RX_SERIAL
 feature TELEMETRY
-set serialrx_provider = CRSF
 
 set rx_min_usec = 900
 set rx_max_usec = 2100
+
+set expresslrs_uid = 67,127,47,177,211,57
+set expresslrs_rate_index = 2
 
 # rc_smoothing
 set rc_smoothing = ON
