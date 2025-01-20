@@ -146,7 +146,7 @@
   "presets": [
     {
       "fullPath": "presets/bnf/cinelog25_hd.txt",
-      "hash": "9806faa946dd978b90e8d64180767c8631884e59474f056445f73458d18447e4",
+      "hash": "4a47afe149f0815dabfda2d739e3ba23af2ad5ba2adf91d10fb586a1ac60f394",
       "title": "Cinelog25 HD",
       "firmware_version": [
         "4.5"
@@ -160,7 +160,7 @@
     },
     {
       "fullPath": "presets/bnf/cinelog35_hd.txt",
-      "hash": "37a7a2efb37d0bf2edd2c7133c6880a8be94739dd5af5f0c85de043ad055afc9",
+      "hash": "a206b64a6ce6941ad287cf54297dbe82d51c75fdfa65b23bffb10e09ef5d5c82",
       "title": "Cinelog35 HD",
       "firmware_version": [
         "4.5"
@@ -174,7 +174,7 @@
     },
     {
       "fullPath": "presets/bnf/Cineon20_hd.txt",
-      "hash": "81c01c83c4836a23c2f01366e12667be28ba1000a9af1bba77b9d6531efc3733",
+      "hash": "51cf92556d38065a4a6e9bd68cd283262eaa7f6c27104fe367dd887e2b6fc004",
       "title": "CineON 20 HD",
       "firmware_version": [
         "4.5"
@@ -188,7 +188,7 @@
     },
     {
       "fullPath": "presets/bnf/setting_osd.txt",
-      "hash": "1e7be0b61c14c677a5584c9a37044d0d4a58e794a4a741340a0f2efb794406f4",
+      "hash": "1907ff8142c115a9d1bf56f0c302149262abca105bc6f970a923f415c3260b39",
       "title": "OSD Placement",
       "firmware_version": [
         "4.4",

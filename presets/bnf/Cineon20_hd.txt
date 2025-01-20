@@ -234,7 +234,7 @@ rateprofile 0
 #$ INCLUDE: presets/reciever/reciever_spi_elrs_150.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
+#$ OPTION BEGIN (CHECKED): CRSF TBS / ELRS 2.4Ghz
 #$ INCLUDE: presets/reciever/reciever_cinewhoop_elrs_500.txt
 #$ OPTION END
 

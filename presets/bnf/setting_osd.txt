@@ -36,11 +36,6 @@
 #$ INCLUDE: presets/osd/osd_hd_dji_o3_lq.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital DJI O3 Canvas & RSSI
-#$ INCLUDE: presets/osd/osd_hd_dji_o3.txt
-#$ INCLUDE: presets/osd/osd_hd_dji_o3_rssi.txt
-#$ OPTION END
-
 #$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS & LQ
 #$ INCLUDE: presets/osd/osd_hd_dji_wtfos.txt
 #$ OPTION END
@@ -49,7 +44,7 @@
 
 #$ OPTION_GROUP BEGIN: OSD GPS Placement
 
-#$ OPTION BEGIN (CHECKED): Without GPS
+#$ OPTION BEGIN (UNCHECKED): Without GPS
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Analog

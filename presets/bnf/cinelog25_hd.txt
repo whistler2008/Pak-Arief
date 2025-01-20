@@ -244,7 +244,7 @@ rateprofile 0
 #$ INCLUDE: presets/reciever/reciever_spi_elrs_150.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
+#$ OPTION BEGIN (CHECKED): CRSF TBS / ELRS 2.4Ghz
 #$ INCLUDE: presets/reciever/reciever_cinewhoop_elrs_500.txt
 #$ OPTION END
 
@@ -253,11 +253,11 @@ rateprofile 0
 
 #$ OPTION_GROUP BEGIN: GPS Hardware
 
-#$ OPTION BEGIN (CHECKED): Without GPS
+#$ OPTION BEGIN (UNCHECKED): Without GPS
 #$ INCLUDE: presets/modes/aux_std.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): With GPS
+#$ OPTION BEGIN (CHECKED): With GPS
 #$ INCLUDE: presets/modes/aux_gps.txt
 #$ OPTION END
 
