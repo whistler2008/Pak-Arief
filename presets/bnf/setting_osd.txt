@@ -3,7 +3,7 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: BNF
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: BNF
+#$ KEYWORDS: osd
 #$ AUTHOR: Whistler2008
 #$ DESCRIPTION: OSD Placement
 #$ DESCRIPTION: 
@@ -31,32 +31,67 @@
 #$ INCLUDE: presets/osd/osd_analog_ntsc_rssi.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital DJI O3 Canvas & LQ
-#$ INCLUDE: presets/osd/osd_hd_dji_o3.txt
-#$ INCLUDE: presets/osd/osd_hd_dji_o3_lq.txt
+#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail & LQ
+#$ INCLUDE: presets/osd/osd_hd_avatar.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas & LQ
+#$ INCLUDE: presets/osd/osd_hd_dji_canvas.txt
+#$ INCLUDE: presets/osd/osd_hd_dji_canvas_lq.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas & RSSI
+#$ INCLUDE: presets/osd/osd_hd_dji_canvas.txt
+#$ INCLUDE: presets/osd/osd_hd_dji_canvas_rssi.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV & LQ
+#$ INCLUDE: presets/osd/osd_hd_dji_fpv.txt
+#$ INCLUDE: presets/osd/osd_hd_dji_fpv_lq.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV & RSSI
+#$ INCLUDE: presets/osd/osd_hd_dji_fpv.txt
+#$ INCLUDE: presets/osd/osd_hd_dji_fpv_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS & LQ
 #$ INCLUDE: presets/osd/osd_hd_dji_wtfos.txt
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): Digital HDZero & LQ
+#$ INCLUDE: presets/osd/osd_hd_hdzero.txt
+#$ OPTION END
+
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: OSD GPS Placement
 
-#$ OPTION BEGIN (UNCHECKED): Without GPS
+#$ OPTION BEGIN (CHECKED): Without GPS
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Analog
 #$ INCLUDE: presets/osd/osd_analog_gps.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital DJI O3 Canvas
-#$ INCLUDE: presets/osd/osd_hd_dji_o3_gps.txt
+#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
+#$ INCLUDE: presets/osd/osd_hd_avatar_gps.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas
+#$ INCLUDE: presets/osd/osd_hd_dji_canvas_gps.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
+#$ INCLUDE: presets/osd/osd_hd_dji_fpv_gps.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS
 #$ INCLUDE: presets/osd/osd_hd_dji_wtfos_gps.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital HDZero
+#$ INCLUDE: presets/osd/osd_hd_hdzero_gps.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

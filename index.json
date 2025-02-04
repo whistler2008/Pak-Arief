@@ -136,10 +136,9 @@
       "Whistler2008"
     ],
     "keywords": [
-      "BNF",
       "factory",
       "MODES",
-      "OSD",
+      "osd",
       "RECIEVER"
     ]
   },
@@ -188,7 +187,7 @@
     },
     {
       "fullPath": "presets/bnf/setting_osd.txt",
-      "hash": "1907ff8142c115a9d1bf56f0c302149262abca105bc6f970a923f415c3260b39",
+      "hash": "2a3748bebb334b18ae4a653fc6d4fb0193c2fe2b4738b2fb2ff5e0ad9575583f",
       "title": "OSD Placement",
       "firmware_version": [
         "4.4",
@@ -197,7 +196,7 @@
       "category": "BNF",
       "status": "COMMUNITY",
       "keywords": [
-        "BNF"
+        "osd"
       ],
       "author": "Whistler2008",
       "priority": 0
@@ -382,9 +381,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_hd_dji_o3.txt",
-      "hash": "0caee0554a386d5da4735a764dc3c55e378d4ecec9137470f72af0bf6e8735d7",
-      "title": "HD DJI O3 OSD settings (Betaflight 4.4-4.5)",
+      "fullPath": "presets/osd/osd_hd_avatar.txt",
+      "hash": "c37f0e8174869d866206c9a9bdcbac7a2658f6b2a98876fd3f0b64afed5972c0",
+      "title": "HD Avatar OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -398,9 +397,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_hd_dji_o3_gps.txt",
-      "hash": "d4e0a064a345298f43bd3a56322ae21d8c7d773548df3be770521ee72ea133c0",
-      "title": "HD DJI O3 GPS OSD settings (Betaflight 4.4-4.5)",
+      "fullPath": "presets/osd/osd_hd_avatar_gps.txt",
+      "hash": "0899eed6e98cfbfcc14531afaee6cb93718421403bdb92a3ed5b41c7582878e6",
+      "title": "HD Avatar GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -414,9 +413,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_hd_dji_o3_lq.txt",
-      "hash": "cc6755661eb0ac66a40c3434cdf6705f0cfbeb71acc100d4569e3141fed6857a",
-      "title": "HD DJI O3 LQ OSD settings (Betaflight 4.4-4.5)",
+      "fullPath": "presets/osd/osd_hd_dji_canvas.txt",
+      "hash": "a081a6012abe84776362ec70b07a4575812cdb5cd522b16c34ce70035f58abb9",
+      "title": "HD DJI Canvas OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -430,9 +429,105 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_hd_dji_o3_rssi.txt",
-      "hash": "becbb947efcc240185d752b1ddde45a96e094dd5fd0bd8551511501f82f80b5c",
-      "title": "HD DJI O3 RSSI OSD settings (Betaflight 4.4-4.5)",
+      "fullPath": "presets/osd/osd_hd_dji_canvas_gps.txt",
+      "hash": "5719c1b094fbf4f12ff5c4cec20e0620658e0a25d17f45806caededf54cd41ec",
+      "title": "HD DJI Canvas GPS OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OSD"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_hd_dji_canvas_lq.txt",
+      "hash": "51066edd5e08b879af2afee2a6b69fa684a3965d5fcf3bf7637399b157edd3a0",
+      "title": "HD DJI Canvas LQ OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OSD"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_hd_dji_canvas_rssi.txt",
+      "hash": "eac4558045c3eac0a37b0c42b958a8fc4bc09860cfa8b1bd838bfe8768735fa1",
+      "title": "HD DJI Canvas RSSI OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OSD"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_hd_dji_fpv.txt",
+      "hash": "50c5d730bd1ce98fed078a15f62cca6180b87710795f81b09441661a4e8615b6",
+      "title": "HD DJI FPV OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OSD"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_hd_dji_fpv_gps.txt",
+      "hash": "27260e822492f1d20a40a6fbcef14f37ead55f9e74edf7c7faacb0bed855efd2",
+      "title": "HD DJI FPV GPS OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OSD"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_hd_dji_fpv_lq.txt",
+      "hash": "384d7783e421867db7325c1d5c87fc2774d99eabe5909f50dcd7f0775bd2c373",
+      "title": "HD DJI FPV LQ OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OSD"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_hd_dji_fpv_rssi.txt",
+      "hash": "519877d78b7ac62ec513b29cb6ba60aff49d371da280cbd6093e7b4b29ed0114",
+      "title": "HD DJI FPV RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -465,6 +560,38 @@
       "fullPath": "presets/osd/osd_hd_dji_wtfos_gps.txt",
       "hash": "9daa5b8cfbec4cf646b49f2cf91ae5812d81fa3ada0b98b19c29372fc20d6c8b",
       "title": "HD DJI WTFOS GPS OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OSD"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_hd_hdzero.txt",
+      "hash": "e68bded7af66f4ab60e8ef534cd53dd9a3411f0ccc031b5719e4785527cb3e62",
+      "title": "HD Zero OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OSD"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_hd_hdzero_gps.txt",
+      "hash": "3b4057bcf890c28999dc8e3f3a6610e02babc4a47e2528865bce6e4c00be6a29",
+      "title": "HD Zero GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
